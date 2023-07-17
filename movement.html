@@ -1,0 +1,41 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Robot movement</title>
+
+  <link rel="stylesheet" href="movement.css">
+
+</head>
+
+<body>
+
+  <section class="button-section">
+
+    <div id="title">
+      <h1>Welcome to Robot Controller</h1>
+    </div>
+    <form method="post" action="direction.php">
+      <div class="button-container">
+        <input class="button" name="button" type="submit" value="Forward">
+      </div>
+    
+      <div class="centerbtn">
+        <div class="button-container">
+          <input class="button" id="left-button" name="button" type="submit" value="Left">
+          <input class="button" id="stop-button" name="button" type="submit" value="Stop">
+          <input class="button" id="right-button"name="button" type="submit"  value="Right">
+        </div>
+      </div>
+    
+      <div class="button-container">
+        <input class="button" name="button" type="submit" value="Backward">
+      </div>
+    </form>
+   </section>
+  
+</body>
+</html>
